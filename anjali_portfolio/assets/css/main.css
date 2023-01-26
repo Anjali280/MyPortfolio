@@ -8,6 +8,10 @@ canvas{
     background-size: cover;
 }
 
+#abcd {
+    box-shadow: 0 0 0 1 1px solid black;
+}
+
 .header-hero
 {
     color: #fff;
