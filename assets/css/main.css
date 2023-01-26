@@ -1,33 +1,32 @@
-canvas{
-    width: 100vw;
-    height: 100vh !important;
-    background:black;
-    background-image: url('../img/background.jpg'); 
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: cover;
+canvas {
+  width: 100vw;
+  height: 100vh !important;
+  background: black;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
 }
 
 #abcd {
-    box-shadow: 0 0 0 1 1px solid black;
+  box-shadow: 0 0 1 1px solid black;
 }
 
-.header-hero
-{
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+.header-hero {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
-.hero-outer{
-	height: 100vh;
-	display: grid;
-	justify-items: center;
+.hero-outer {
+  height: 100vh;
+  display: grid;
+  justify-items: center;
 }
-.hero-inner{
-	align-self: center;
-	text-align: center;
-	vertical-align:middle;
+.hero-inner {
+  align-self: center;
+  text-align: center;
+  vertical-align: middle;
 }
